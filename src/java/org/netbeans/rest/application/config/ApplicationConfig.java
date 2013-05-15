@@ -24,12 +24,12 @@ public class ApplicationConfig extends Application {
      */
     private Set<Class<?>> getRestResourceClasses() {
         Set<Class<?>> resources = new java.util.HashSet<Class<?>>();
-        resources.add(service.GestionelineeprodottoFacadeREST.class);
         resources.add(service.GestionenoteFacadeREST.class);
+        resources.add(service.GestionelineeprodottoFacadeREST.class);
         resources.add(service.OrdiniFacadeREST.class);
         resources.add(service.SchedatecnicaFacadeREST.class);
-        resources.add(service.CataloghiFacadeREST.class);
         resources.add(service.ModificheschedatecnicaFacadeREST.class);
+        resources.add(service.CataloghiFacadeREST.class);
         resources.add(service.GestionetestataFacadeREST.class);
         resources.add(service.UnitaMisuraFacadeREST.class);
         resources.add(service.MaterialiFacadeREST.class);
